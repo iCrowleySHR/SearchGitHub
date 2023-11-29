@@ -73,16 +73,16 @@ function App() {
 
   return(
     <>
-    <main>
-      <div className={styles.areaSearch}>
-        <BsSearch className={styles.icon}/>
-        <input type="text" id="pesquisa" placeholder='Search Github Profiles' autoComplete='off' onKeyPress={handleKeyPress}/>  
-        <button onClick={search}>Enviar</button>
-      </div>
-      <Result name={name} img={img} bio={bio} login={login} msg={message} url={url} repos={repos} followers={followers} following={following}/>
-      <MoreProjects/>
-      <Footer />
-    </main>
+      <main>
+        <div className={styles.areaSearch}>
+          <BsSearch className={styles.icon}/>
+          <input type="text" id="pesquisa" placeholder='Search Github Profiles' autoComplete='off' onKeyPress={handleKeyPress}/>  
+          <button onClick={search}>Enviar</button>
+        </div>
+        <Result name={name} img={img} bio={bio} login={login} msg={message} url={url} repos={repos} followers={followers} following={following}/>
+        <MoreProjects/>
+      </main>
+    <Footer />
     </>
   )
 }
