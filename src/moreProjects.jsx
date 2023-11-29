@@ -1,5 +1,5 @@
 import styles from './assets/css/moreProjects.module.css'
-import dailyJoke from './assets/img/dailyJoke.png'
+import dailyJoke from './assets/img/dailyjoke.png'
 import battleTetris from './assets/img/battletetris.png';
 
 function MoreProjects(){
