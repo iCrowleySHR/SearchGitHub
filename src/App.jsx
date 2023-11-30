@@ -73,7 +73,7 @@ function App() {
 
   return(
     <>
-      <main className={styles.main}>
+      <main>
         <div className={styles.areaSearch}>
           <BsSearch className={styles.icon}/>
           <input type="text" id="pesquisa" placeholder='Search Github Profiles' autoComplete='off' onKeyPress={handleKeyPress}/>  

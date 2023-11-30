@@ -1,16 +1,17 @@
-.profile-container{
+.profile-container {
     position: relative;
     display: flex;
     border-radius: 13px;
     background-color: #ffffff;
     max-width: 925px;
-    width: 100%;
+    width: calc(100% - 55px);
+    margin: 10px auto;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     overflow: hidden;
-    margin: 10px auto;
+
 }
 
 .area-profile{
