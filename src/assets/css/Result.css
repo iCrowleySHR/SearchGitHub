@@ -1,4 +1,5 @@
 .area-profile{
+    display: flex;
     border-radius: 13px;
     background-color: #ffffff;
     max-width: 925px;

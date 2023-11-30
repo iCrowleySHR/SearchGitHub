@@ -24,7 +24,7 @@ function Result(props){
                         <a href={props.url} target='_blank'>
                             <p className='user-bio'>{props.bio == null ? message_bio : props.bio}</p>
                         </a>
-           
+                        <Minions/>
 
                         <div className="line"></div>
                         <br />
