@@ -84,7 +84,6 @@
 }
 .container-infos{
     display: flex;
-    flex-wrap: nowrap;
     justify-content: center;
     margin: 0 auto;
 
@@ -106,4 +105,12 @@
 }
 main{
     cursor: default;
+}
+@media screen and (max-width:810px){
+    .infos{
+        padding-left: 5px;
+        padding-right: 5px;
+        text-align: center;
+        border-right: solid 1px gray; 
+    }
 }
