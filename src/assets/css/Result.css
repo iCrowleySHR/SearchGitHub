@@ -1,9 +1,9 @@
 .profile-container {
     position: relative;
     display: flex;
-    border-radius: 13px;
     background-color: #ffffff;
     max-width: 925px;
+    border-radius: 13px;
     width: calc(100% - 55px);
     margin: 10px auto;
     flex-wrap: wrap;
@@ -16,10 +16,11 @@
 
 .area-profile{
     display: flex;
-    padding-left: 15px;
-    padding-right: 15px;
-    justify-content: center;
     flex-direction: column;
+    max-width: 925px;
+    width: 99%;
+    margin-right: 12px;
+
 }
 
 .img-user{
@@ -85,12 +86,17 @@
 }
 .container-infos{
     display: flex;
+    max-width: 925px;
+    width: 99%;
+    margin-right: 12px;
+    flex-wrap: wrap;
     justify-content: center;
 }
 .infos{
+    display: flex;
+    flex-direction: column;
     padding-left: 15px;
     padding-right: 15px;
-    
     text-align: center;
     border-right: solid 1px gray; 
 }
@@ -111,12 +117,10 @@ main{
         padding-left: 5px;
         padding-right: 5px;
         text-align: center;
-        border-right: solid 1px gray; 
+        border-right: none; 
     }
-    .area-profile{
-        display: flex;
-        margin-right: 5px;
-        justify-content: center;
-        flex-direction: column;
+    .infos:first-child{ /*Primeira criança. primeiro elemento*/
+        border-left:none;
     }
+
 }
