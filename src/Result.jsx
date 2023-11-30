@@ -25,6 +25,7 @@ function Result(props){
                         <a href={props.url} target='_blank'>
                             <p className='user-bio'>{props.bio == null ? message_bio : props.bio}</p>
                         </a>
+                    </section>
                         
                         <Minions/>
 
@@ -46,7 +47,7 @@ function Result(props){
                             </div>
                         </section>
                         <br />
-                    </section>
+                    
                 </div>
             </section>
             
