@@ -1,16 +1,17 @@
 .Minions{
     display: flex;
-
     width: 100px;
     opacity: 1;
+    top: 50;
     animation: minionsAnimate 4s infinite linear;
     transition:  500ms;
 }
 
-.container{
+.container{ 
+    position: absolute;
     display: flex;
-    margin-left: 80%;
-    margin-top: -100px;
+    margin-left: 83%;
+    margin-top: 110px;
 }
 
 .container > a > img:hover{

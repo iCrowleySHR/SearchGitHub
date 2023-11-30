@@ -8,6 +8,7 @@ function Result(props){
     let hiddenInfo = props.msg == 'Not Found' ? 'user-disable' : 'user-activate'
     return(
         <>
+        
             <h1 className={notFoundMSG} id='notMSG'>User not found<br /> 😥😣</h1>
             <section className={hiddenInfo}>
                 <div className="profile-container" style={{ display: props.img == '' ? 'none' : 'flex' }}> 
@@ -24,6 +25,7 @@ function Result(props){
                         <a href={props.url} target='_blank'>
                             <p className='user-bio'>{props.bio == null ? message_bio : props.bio}</p>
                         </a>
+                        
                         <Minions/>
 
                         <div className="line"></div>
@@ -47,6 +49,7 @@ function Result(props){
                     </section>
                 </div>
             </section>
+            
         </>
     )
 }

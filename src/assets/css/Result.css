@@ -1,4 +1,5 @@
 .area-profile{
+    position: relative;
     display: flex;
     border-radius: 13px;
     background-color: #ffffff;
