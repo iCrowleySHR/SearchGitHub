@@ -1,6 +1,7 @@
 .Minions{
     display: flex;
     width: 100px;
+    transition: 300ms;
 }
 
 .container{ 
