@@ -55,9 +55,6 @@ function App() {
         const following = dados.following
         setfollowing(following)
 
-
-        console.log(dados)
-
       })
       .catch(erro => {
         console.error('Erro:', erro);
