@@ -2,6 +2,8 @@
 
 ## Visão Geral
 
+<img src="src/assets/img/readme.png" style="margin:0 auto;">
+
 Bem-vindo ao SearchGitHub, um explorador simples e eficiente que utiliza a API do GitHub para carregar perfis de usuários e exibir informações relevantes. Desenvolvido com React, este projeto oferece uma interface responsiva e agradável.
 
 ## Funcionalidades
